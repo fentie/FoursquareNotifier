@@ -12,6 +12,7 @@ curl_setopt($curl, CURLOPT_URL, 'https://api.foursquare.com/v2/venues/' .
     '&oauth_token=' . OAUTH_TOKEN);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_TIMEOUT, 5);
+//this is a bad security practice, see README.md
 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 
 $response = curl_exec($curl);

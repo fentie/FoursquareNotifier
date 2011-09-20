@@ -15,3 +15,5 @@ Security note: Currently I'm disabling the cert verification for this
 curl script. This is a bad security practice, but there's no way that
 I could fix it where it would be portable to other computers, so just
 go here and sort it out for your own environment: [http://unitstep.net/blog/2009/05/05/using-curl-in-php-to-access-https-ssltls-protected-sites/](http://unitstep.net/blog/2009/05/05/using-curl-in-php-to-access-https-ssltls-protected-sites/)
+
+Here's some more info with a certificate grabber you can use: [http://artur.ejsmont.org/blog/content/how-to-properly-secure-remote-api-calls-from-php-application](http://artur.ejsmont.org/blog/content/how-to-properly-secure-remote-api-calls-from-php-application)
